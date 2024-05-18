@@ -54,6 +54,8 @@ kotlin {
             implementation(libs.voyager.koin)
         }
     }
+    // Weird error: https://stackoverflow.com/a/78159011/423980
+    task("testClasses")
 }
 
 android {
